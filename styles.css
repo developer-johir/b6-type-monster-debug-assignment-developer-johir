@@ -16,6 +16,14 @@ body {
   margin: 0 auto;
 }
 
+.btn-blog{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
 #question {
   height: 100px;
   display: flex;
