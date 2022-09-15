@@ -211,11 +211,9 @@ button {
 }
 
 @media only screen and (min-width: 700px) {
-  .history,
-  .history-seconds,
-  .history-mistakes{
-    width: 32.5%;
-    height: 90px;
+  .card{
+    width: 32%;
+    height: 150px;
     background: rgb(255, 255, 255);
     background: linear-gradient(
       92.49deg,
@@ -223,10 +221,13 @@ button {
       rgba(255, 255, 255, 0.05) 99.85%
     );
     border-radius: 5px;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 10px;
+  }
+  .history-seconds{
+    margin: 12px 0px 5px 0px;
   }
 }
