@@ -23,6 +23,11 @@ body {
   align-items: center;
   margin-bottom: 30px;
 }
+.btn-blog a{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
 
 #question {
   height: 100px;
